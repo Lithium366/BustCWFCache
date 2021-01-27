@@ -1,0 +1,26 @@
+{
+  "name": "Bust CWF cache",
+  "version": "1.0",
+  "description": "Adds random review query parameter to the URL",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "http://*.goodrx.com/",
+    "https://*.goodrx.com/"
+  ],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/goodrx_pro_app.png"
+  },
+  "icons": {
+    "16": "images/goodrx_pro_app.png",
+    "32": "images/goodrx_pro_app.png",
+    "48": "images/goodrx_pro_app.png",
+    "128": "images/goodrx_pro_app.png"
+  },
+  "manifest_version": 2
+}
